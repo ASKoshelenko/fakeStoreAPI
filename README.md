@@ -1,2 +1,2 @@
 # fast
-fast react practice
+fast react practise
