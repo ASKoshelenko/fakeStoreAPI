@@ -1,8 +1,15 @@
 import React from 'react';
+import {Product} from './components/Product';
+import {products} from './data/products';
 
 function App() {
+
+
   return (
-    <h1>rene7al</h1>
+    <div className="container mx-auto max-w-2xl pt-5">
+      <Product product={products[0]} />
+      <Product product={products[1]} />
+    </div>
   );
 
 }
